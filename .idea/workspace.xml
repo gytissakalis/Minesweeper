@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49e75c48-d9e2-4e55-99f1-2f3b41696f52" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/RedmineIssuesUpdate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/RedmineSpUpdate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DevelopeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Library/Api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Issues.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/StoryPoints.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/projectParams.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2018_06_29_090513_make_issue_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2018_06_29_090710_make_story_points.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/FooTable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/dropdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/footable.core.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/footable.core.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/footable.core.standalone.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/footable.filtering.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/footable.filtering.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/footable.sorting.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/footable.sorting.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/loader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/loader.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/materialPreloader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/materialPreloader.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/search.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/semantic-all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/semantic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/semantic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/simple-line-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-ExtraBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-SemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/OpenSans-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.dev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ChartPrealoader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/VGTU_EN_White_RGB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/line-header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/vgtu_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/AjaxLoad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/FT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/FooTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/ProgressBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/ScrollToTopBtn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dropdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/footable.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/footable.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/footable.filtering.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/footable.filtering.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/footable.sorting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/footable.sorting.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/icons-lte-ie7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.ajax-progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/materialPreloader-vanilla.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/materialPreloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/materialPreloader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/preloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/raphael.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/search.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/semantic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/semantic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/statistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/lt/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/dropdown.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/dropdown.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/graph.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/scrollToTop.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/tablee.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minesweeperis/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sketch.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/minesweeperis/sketch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1025">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createCanvas</find>
+      <find>w</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vaizdas.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sketch.js" />
+        <option value="$PROJECT_DIR$/empty-example/sketch.js" />
+        <option value="$PROJECT_DIR$/minsweeperis/sketch.js" />
+        <option value="$PROJECT_DIR$/minesweeperis/index.html" />
+        <option value="$PROJECT_DIR$/minesweeperis/sketch.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IsVystimas2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IsVystimas2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../isprieziura.vgtu.lt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/IsVystimas2018/minesweeperis/index.html" />
+    <configuration name="sketch.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="sketch.js" working-dir="$PROJECT_DIR$/minesweeperis" />
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Node.js.sketch.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.sketch.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49e75c48-d9e2-4e55-99f1-2f3b41696f52" name="Default" comment="" />
+      <created>1540380032989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540380032989</updated>
+      <workItem from="1540380036557" duration="1316000" />
+      <workItem from="1540381468522" duration="14047000" />
+      <workItem from="1540399746743" duration="660000" />
+      <workItem from="1540807321288" duration="10675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26699000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.058333334" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5182292" side_tool="true" weight="0.13177471" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48177084" visible="true" weight="0.30393198" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3060574" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DevelopeController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/RedmineSpUpdate.php" />
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/../paysera/wp-content/plugins/jigoshop-ecommerce/jigoshop.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AjaxController.php" />
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/e0e5533653ae466e134de7690aa4e05bec431813.php" />
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/dbIssuesUpdate.php" />
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php" />
+    <entry file="file://$PROJECT_DIR$/config/api.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app1.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/table.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/tablee.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/dropdown.blade.php" />
+    <entry file="file://$PROJECT_DIR$/public/js/AjaxLoad1.js" />
+    <entry file="file://$PROJECT_DIR$/resources/views/stats.blade.php" />
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/bc38c42b46d72e52364db6c67c0fd78460199e9c.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/graph.blade.php" />
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/323377b7606672e8d719c89a3c17155039a1d555.php" />
+    <entry file="file://$PROJECT_DIR$/public/js/dropdown.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/semantic.js" />
+    <entry file="file://$PROJECT_DIR$/config/projectParams.php" />
+    <entry file="file://$PROJECT_DIR$/../paysera/wp-content/plugins/jigoshop-ecommerce/gateways/paysera.php" />
+    <entry file="file://$PROJECT_DIR$/../paysera/wp-content/plugins/jigoshop-ecommerce/src/JigoshopInit.php" />
+    <entry file="file://$PROJECT_DIR$/../paysera/wp-content/plugins/jigoshop-ecommerce/jigoshop.php" />
+    <entry file="file://$PROJECT_DIR$/public/js/AjaxLoad.js" />
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/RedmineIssuesUpdate.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_06_29_090513_make_issue_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_06_29_090710_make_story_points.php" />
+    <entry file="file://$PROJECT_DIR$/app/Library/Api.php" />
+    <entry file="file://$PROJECT_DIR$/app/Models/Issues.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DevelopeController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/RedmineSpUpdate.php" />
+    <entry file="file://$PROJECT_DIR$/routes/web.php" />
+    <entry file="file://$PROJECT_DIR$/vaizdas.js" />
+    <entry file="file://$PROJECT_DIR$/empty-example/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/empty-example/sketch.js" />
+    <entry file="file://$PROJECT_DIR$/minsweeperis/sketch.js" />
+    <entry file="file://$PROJECT_DIR$/sketch.js" />
+    <entry file="file://$PROJECT_DIR$/p5.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" column="5232" selection-start-line="7" selection-start-column="5232" selection-end-line="7" selection-end-column="5246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/p5.sound.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minesweeperis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minesweeperis/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1025">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
